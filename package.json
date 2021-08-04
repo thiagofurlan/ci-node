@@ -18,6 +18,7 @@
   "homepage": "https://github.com/thiagofurlan/ci-node#readme",
   "devDependencies": {
     "jest": "^27.0.6",
+    "jest-sonar": "^0.2.12",
     "sonar-scanner": "^3.1.0"
   }
 }
