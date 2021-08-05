@@ -19,3 +19,7 @@ test('div 2 / 2 to equal 1', () => {
 test('div 2 / 0 to equal Error', () => {
     expect(() => math.div(2, 0)).toThrowError("Division by zero");
 });
+
+test('div 0 / 2 to equal 0', () => {
+    expect(math.div(0, 2)).toBe(0);
+});
